@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+APP_NAME = 'study_metadata_rules'
 
 # Application definition
 
@@ -37,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'study_metadata_rules.apps.AppConfig',
+
 ]
 
 MIDDLEWARE = [
